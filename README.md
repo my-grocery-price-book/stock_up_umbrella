@@ -1,4 +1,4 @@
-# grocery-stock-up
+# stock up umbrella
 
 TODO: Write a description here
 
