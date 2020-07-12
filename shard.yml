@@ -1,0 +1,29 @@
+name: grocery_stock_up
+version: 0.1.0
+
+authors:
+  - Grant Petersen-Speelman
+
+targets:
+  grocery_stock_up:
+    main: src/grocery_stock_up.cr
+
+crystal: 0.35.1
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    commit: a8c0f09b858162bd13c96663febef5527b322a32
+  granite:
+    github: amberframework/granite
+  micrate:
+    github: amberframework/micrate
+  pg:
+    github: will/crystal-pg
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    version: ~> 0.13.0
+
+license: GNU GENERAL PUBLIC LICENSE

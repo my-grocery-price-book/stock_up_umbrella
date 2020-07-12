@@ -1,0 +1,27 @@
+version: '3.2'
+
+volumes:
+  postgres-12-data:
+    driver: local
+
+services:
+  postgres-db:
+    image: postgres:12
+    environment:
+      - POSTGRES_PASSWORD=developer
+      - POSTGRES_USER=user
+      - POSTGRES_DB=dev
+    volumes:
+      - postgres-12-data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    environment:
+      DATABASE_URL: "postgresql://user:dev@postgres-db/dev"
+    command: crystal run src/server.cr
+    volumes:
+      - .:$PWD
+    ports:
+      - "3000:3000"  
+    depends_on:
+      - postgres-db

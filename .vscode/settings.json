@@ -1,0 +1,10 @@
+{
+  "crystal-lang.compiler": "/home/grant/Work/new-price-book/dbin/crystal.sh",
+  "crystal-lang.shards": "docker-compose run --rm app shards",
+  "crystal-lang.problems": "build",
+  "crystal-lang.completion": true,
+  "crystal-lang.hover": true,
+  "crystal-lang.implementations": true,
+  "cryFmt.general.crystalExecutable": "/home/grant/Work/new-price-book/dbin/crystal.sh",
+  "crystal.specCommand": "/usr/bin/crystal"
+}

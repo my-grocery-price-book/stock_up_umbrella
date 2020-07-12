@@ -1,0 +1,38 @@
+version: 2.0
+shards:
+  ameba:
+    git: https://github.com/crystal-ameba/ameba.git
+    version: 0.13.0
+
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.9.0
+
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.1.4
+
+  granite:
+    git: https://github.com/amberframework/granite.git
+    version: 0.21.0
+
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    version: 0.26.1+git.commit.a8c0f09b858162bd13c96663febef5527b322a32
+
+  kilt:
+    git: https://github.com/jeromegn/kilt.git
+    version: 0.4.0
+
+  micrate:
+    git: https://github.com/amberframework/micrate.git
+    version: 0.8.0
+
+  pg:
+    git: https://github.com/will/crystal-pg.git
+    version: 0.21.1
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.3.9
+
